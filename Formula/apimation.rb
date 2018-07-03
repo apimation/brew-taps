@@ -1,9 +1,9 @@
 class Apimation < Formula
   desc "apimation cli client"
   homepage "https://apimation.com/"
-  url "https://github.com/apimation/cli-client/releases/download/v0.31.0/apimation_0.31.0_macOS_amd64.zip"
-  version "0.31.0"
-  sha256 "a9394b5bf8aecd37b6464cf1797b5b19ac8374f9bced5d8817d75bc82fe998cb"
+  url "https://github.com/apimation/cli-client/releases/download/v0.32.0/apimation_0.32.0_macOS_amd64.zip"
+  version "0.32.0"
+  sha256 "d489d35cc6c44b01fb29e28f22c1c47b50930fa59379c681cba575318aec3bf6"
   
   depends_on "git"
 
