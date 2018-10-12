@@ -1,9 +1,9 @@
 class Testengineworker < Formula
   desc "apimation test engine worker"
   homepage "https://apimation.com/"
-  url "https://github.com/apimation/testEngineWorker/releases/download/v0.19.2/testengineworker_0.19.2_macOS_amd64.zip"
-  version "0.19.2"
-  sha256 "b46a800c5141a4d3506a849b4203a086ec3580049816016798b01597b529e0a5"
+  url "https://github.com/apimation/testEngineWorker/releases/download/v0.20.0/testengineworker_0.20.0_macOS_amd64.zip"
+  version "0.20.0"
+  sha256 "e1a8ce1dc8e0868967324b4b73980b9a42d59bb9fd19c780e51033760bbe7b37"
   
   depends_on "git"
 
