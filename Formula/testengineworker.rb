@@ -6,10 +6,10 @@ class Testengineworker < Formula
 
   if OS.mac?
     url "https://github.com/apimation/testEngineWorker/releases/download/v0.25.5/testengineworker_0.25.5_macOS_amd64.zip"
-    sha256 "602b49b718eea943f7e11cca8cabf2955e31b5bec4cf2a83d773cbc8c368302a"
+    sha256 "ae868a80952ca361956f07354d0bae71c912d7206d98d06067c5afc00fe54d1d"
   elsif OS.linux?
     url "https://github.com/apimation/testEngineWorker/releases/download/v0.25.5/testengineworker_0.25.5_linux_amd64.zip"
-    sha256 "010855e072a71d824b27a1885ae89dbf9a2f443a88c8079e0ffa7e826a049cbd"
+    sha256 "2e9650791b2cda309c8ee53f4a18eca2d23d480830c635a2ed30715e672d8bb2"
   end
   
   depends_on "git"
