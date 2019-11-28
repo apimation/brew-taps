@@ -2,14 +2,14 @@
 class Apimation < Formula
   desc "apimation cli client"
   homepage "https://apimation.com/"
-  version "0.54.4"
+  version "0.54.5"
 
   if OS.mac?
-    url "https://github.com/apimation/cli-client/releases/download/v0.54.4/apimation_0.54.4_macOS_amd64.zip"
-    sha256 "0d1e17bcaf5f43edb99b88b1ba6b3e82605db0e7970b995ceffa0b23021d6a72"
+    url "https://github.com/apimation/cli-client/releases/download/v0.54.5/apimation_0.54.5_macOS_amd64.zip"
+    sha256 "b9d8c7b7a5b88b58d026a952247ba9da99e863423622dafeb390624902065ee4"
   elsif OS.linux?
-    url "https://github.com/apimation/cli-client/releases/download/v0.54.4/apimation_0.54.4_linux_amd64.zip"
-    sha256 "b1c98d22c6b52c15b00aa29f62feaed9b47c2e8ce1ba9df9d702c3eac9a8df4f"
+    url "https://github.com/apimation/cli-client/releases/download/v0.54.5/apimation_0.54.5_linux_amd64.zip"
+    sha256 "92995b5009bf6db152483bde75d7331c9ce3e19ff1dfb7443f11b77c3fb51f78"
   end
   
   depends_on "git"
