@@ -6,10 +6,10 @@ class Apimation < Formula
 
   if OS.mac?
     url "https://github.com/apimation/cli-client/releases/download/v0.54.6/apimation_0.54.6_macOS_amd64.zip"
-    sha256 "62257da4fc8708ba3c491c579fe8511d88a6723f624704b91affcc1e5f6c5285"
+    sha256 "575aecde306b74ec0b4ea1f57ca41988a855c0f0ab01d336ff6fec288ffd1182"
   elsif OS.linux?
     url "https://github.com/apimation/cli-client/releases/download/v0.54.6/apimation_0.54.6_linux_amd64.zip"
-    sha256 "b5ff9e5df76cdecba56dbdf1ef393a1e428c645425f1c35f75ce6c86ae340d7e"
+    sha256 "5457743cd14fa7919ca778e5d9730505058fb004dece1bf0ba6406a8eba72eb3"
   end
   
   depends_on "git"
